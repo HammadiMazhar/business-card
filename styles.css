@@ -1,0 +1,47 @@
+body{
+    margin: 20px;
+}
+
+.avatar{
+    width: 150px;
+}
+
+.card{
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    background-color: #BEE5BF;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+
+}
+
+.content{
+    padding: 3px;
+    text-align: center;
+    color: #493657;
+
+}
+
+
+/* utility class for blue border */
+
+.border-blue{
+    border-bottom: 4px solid #d8cefe;
+    
+
+}
+
+.card:hover {
+    background: #E6E49F;
+
+  }
+.card:hover >.avatar{
+    transform: scale(1.025);
+}
+.card:hover >.content{
+    transform: scale(1.015);
+    color: ;
+}
